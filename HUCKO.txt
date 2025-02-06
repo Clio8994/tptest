@@ -1,0 +1,93 @@
+mkdir tptest
+cd tptest
+git init
+git remote add origin https://github.com/Clio8994/tptest.git
+git config user.email <email>
+git config user.email Clio8994
+nano index.html
+git add index.html
+git commit -m "ajout index.html"
+git push -u origin master
+git pull
+git pull
+git pull
+git add index.html 
+git commit -m "ajout header & content"
+git push -u origin master
+git pull
+git pull
+git pull
+git add index.html 
+git commit -m "ajout du nav"
+git push -u origin master
+git branch css
+nano style.css
+git add style.css
+git commit -m "ajout de la page css"
+git push -u origin css
+git checkout master
+git push
+git rm style.css
+git commit -m "supprimer css du main"
+git push
+git checkout css
+git branch -a
+nano style.css
+git add style.css
+git commit -m "ajout du css"
+git push -u origin css
+git pull
+git pull
+git pull
+git pull
+git checkout --ours index.html 
+git add index.html 
+git commit -m "problème de conflit"
+git merge page1
+git checkout css
+nano style.css 
+git add style.css 
+git commit -m "ajout header et nav style"
+git push -u origin css
+git checkout master
+git merge css
+git push -u origin master
+git rm tptest/
+git commit -m "suppression dossier"
+git push
+git add contact.html 
+git commit -m "rectification contact.html"
+git push -u origin master
+git checkout cssmobile
+mv cssmobile cssmobile.css
+git rm cssmobile
+git add cssmobile.css 
+git commit -m "modification nom fichier css"
+git push -u origin cssmobile
+git checkout master
+git merge cssmobile
+git push -u origin master
+mkdir css html
+mv style.css css
+mv cssmobile.css css
+mv page1.html html/
+mv contact.html html/
+ls
+git rm contact.html cssmobile.css style.css page1.html contact.html
+git add html/ css
+git commit -m "création dossier html et css"
+git push -u origin master
+git pull 
+git add index.html
+git commit -m "ajout du cssmobile"
+git push
+
+
+
+
+
+
+
+
+
+

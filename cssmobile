@@ -1,0 +1,9 @@
+@media screen and (max-width:600px){
+
+    div,
+    article,
+    section{
+        width: 100%;
+        margin: 0;
+    }
+}

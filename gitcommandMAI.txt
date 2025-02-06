@@ -24,33 +24,33 @@ git pull pour recevoir ce qu'on fait les autre.
 git add page1.html
 git commit -m "ajout de h1 et h2"
 git push -u origin page1
-
+git pull
 git add page1.html
 git commit -m "ajout du footer"
 git push -u origin page1
-
+git pull
 git add page1.html
 git commit -m "ajout de nav"
 git push -u origin page1
-
+git pull
 git add page1.html
 git commit -m "met en lien ma page1 avec la page css"
 git push -u origin page1
-
+git pull
 git add page1.html
 git commit -m "modification de la nav"
 git push -u origin page1
-
+git pull
 git add page1.html
 git commit -m "ajout p pour changer la taille des images dans css"
 git push -u origin page1
-
+git pull
 git rm index.html
 git commit -m  "supprime l'index"
-
+git pull
 git checkout css
 
 git add style.css
 git commit -m "modif taille des images et ajout d'un cadre + footer au centre"
 git push -u origin css
-
+git pull

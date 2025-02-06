@@ -1,0 +1,53 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+header{
+    padding: 10px;
+    background-color: rgba(16, 16, 111, 0.874);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header img{
+    margin-left: 2%;
+    height: 50px;
+    width: auto;
+}
+
+header p {
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+header form {
+    padding-left: 60%;
+}
+
+nav{
+    background-color: rgba(16, 16, 111, 0.874);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+
+nav a{
+    color: white;
+}
+
+
+p img{
+    width: 16%;
+    border: 5px double #222;
+    margin: 2%;
+    padding: 2%;
+}
+
+footer{
+    text-align: center;
+}
+
+

@@ -58,20 +58,6 @@
 </form>
 </div>
 <script>
-const form = document.getElementById('contactForm');
-form.addEventListener('submit', function(e) {
-e.preventDefault();
-
-const email = document.getElementById('email').value;
-const confirmEmail = document.getElementById('confirm-email').value;
-
-if (email !== confirmEmail) {
-alert("Les adresses email ne correspondent pas !");
-return;
-}
-document.getElementById('form-message').innerText = "Votre message a été envoyé avec succès !";
-form.reset();
-});
 <footer>&copy; copyright 2025</footer>
 </script>
 </body>

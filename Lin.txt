@@ -1,0 +1,55 @@
+01 - git clone https://github.com/Clio8994/tptest.git
+02 – cd tptest
+03- git branch contact
+04 - git pull 
+05 - git checkout contact
+06 - nano contact.html
+07 - git add contact.html
+08 - git commit -m "Ajout du fichier contact.html"
+09 - git push -u origin contact
+10 - nano contact.html 
+11 - git add contact.html
+12 - git commit -m "Ajout du formulaire de contact"
+13 - nano contact.html 
+14 - git add contact.html
+15 - git commit -m "correction du formulaire de contact"
+16 - git push -u origin contact
+17 - nano contact.html 
+18 - git add contact.html
+19 - git commit -m "Ajout de la confirmation d'email"
+20 - git push -u origin contact
+21 - nano contact.html 
+22 - git add contact.html
+23 - git commit -m "Ajout de la section message et des boutons"
+24 - git push -u origin contact
+25 - nano contact.html 
+26 - git add contact.html
+27 - git commit -m "Ajout d’un footer"
+28 - git push -u origin contact
+29 - git rm index.html
+30- git commit -m "supprime le fichier"
+31- git push -u origin contact
+32-git checkout master
+33-git branch cssmobile
+34-nano cssmobile
+35- git add cssmobile
+35- git commit -m " Ajout du cssmobile"
+41- git push -u origin cssmobile
+
+
+35- nano contact.html 
+36 - git add contact.html
+37 - git commit -m "Ajout du header"
+38- nano contact.html 
+39 - git add contact.html
+40 - git commit -m "Ajout de la nav "
+41- git push -u origin contact
+42-git checkout master
+43-cd html
+44- nano contact.html
+45-cd ..
+46- Git add html
+47- git commit -m “ajout du link css a contact “
+48 – git push -u origin master
+
+

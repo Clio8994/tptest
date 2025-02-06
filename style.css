@@ -3,4 +3,15 @@ margin: 0;
 padding: 0;
 }
 
+p img{
+    width: 16%;
+    border: 5px double #222;
+    margin: 2%;
+    padding: 2%;
+}
+
+footer{
+    text-align: center;
+}
+
 

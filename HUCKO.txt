@@ -81,13 +81,10 @@ git pull
 git add index.html
 git commit -m "ajout du cssmobile"
 git push
-
-
-
-
-
-
-
-
-
+nano README.md 
+git pull
+git pull
+git add README.md 
+git commit -m "ajout du readme"
+git push -u origin master
 
